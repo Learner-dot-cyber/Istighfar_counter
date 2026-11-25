@@ -5,9 +5,12 @@ document.getElementById("decrease").onclick = decrease
 document.getElementById("reset").onclick = reset
 
 function increase(){
+    if (number <= 999){
     document.getElementById("error").textContent = ""
     number = number + 1
     document.getElementById("value").textContent = number
+}else{
+      document.getElementById("error").textContent = "You cannot go above 999."  
 }
 
 function decrease(){
