@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
 }
-@media (max-width: 480px){
 .circle {
   width: 170px;
   height: 170px;
@@ -59,7 +58,7 @@ body{
     align-items: center;
     gap: 14px;
 }
-}
+
 
 #decrease{
     background-color: rgb(100, 25, 35);
