@@ -97,6 +97,7 @@ body{
     }
 
     #num span {
+        margin: 1;
         display: inline-block;
         color: #111111;
         opacity: 1;
