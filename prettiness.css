@@ -37,17 +37,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-}
-@media (max-width: 600px) {
-    body {
-        background-image: url("bg-mobile.jpg");
-        background-size: 100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 100dvh;
-    }
-}
-
 #buttons button {
     padding: 15px 10px;   
     font-size: 25px; 
@@ -62,6 +51,32 @@ body{
     width: 120px;
     height: 70px;
 }
+}
+@media (max-width: 600px) {
+    body {
+        background-image: url("bg-mobile.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100dvh;
+    }
+    #buttons button {
+    padding: 15px 10px;   
+    font-size: 17px; 
+    cursor: pointer;     
+    border-radius: 18%; 
+    color: beige;
+    text-align: center;  
+    transition: background-color 0.25s ease;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+}
+}
+
+
 
 #buttons{
     display: flex;
