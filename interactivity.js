@@ -12,6 +12,7 @@ function increase(){
 }else{
       document.getElementById("error").textContent = "You cannot go above 999."  
 }
+}
 
 function decrease(){
     if (number > 0){
