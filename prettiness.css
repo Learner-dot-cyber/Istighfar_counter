@@ -62,7 +62,7 @@ body{
         justify-content: center;
         align-items: center;
         min-height: 100dvh;
-        display: flex;
+        flex-direction: column;
     }
     #buttons button {
     padding: 15px 10px;   
@@ -78,13 +78,14 @@ body{
 }
     #elements {
         margin-top: 90px;
+        flex-direction: column;
     }
     .circle {
   width: 100px;
   height: 100px;
   background: rgb(180, 110, 110);
   border-radius: 50%;
-  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align:center;
