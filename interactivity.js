@@ -5,7 +5,7 @@ document.getElementById("decrease").onclick = decrease
 document.getElementById("reset").onclick = reset
 
 function increase(){
-    if (number <= 999){
+    if (number < 999){
     document.getElementById("error").textContent = ""
     number = number + 1
     document.getElementById("value").textContent = number
